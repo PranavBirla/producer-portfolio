@@ -680,11 +680,23 @@ const Portfolio = () => {
 
                         </div>
 
-                        <div className="border border-white/10 rounded-[2rem] bg-[#0B0B0B] min-h-[18rem] md:min-h-[30rem] flex items-center justify-center">
+                        <div className="relative border border-white/10 rounded-[2rem] min-h-[18rem] md:min-h-[30rem] flex items-center justify-center overflow-hidden bg-[#0B0B0B]">
 
-                            <h3 className="text-white/10 text-5xl md:text-8xl font-black tracking-[-0.05em]">
-                                PB
-                            </h3>
+                            {/* RED GLOW */}
+
+                            <div className="absolute inset-0 flex items-center justify-center">
+
+                                <div className="w-[18rem] h-[18rem] md:w-[28rem] md:h-[28rem] bg-red-500/10 blur-[120px] rounded-full" />
+
+                            </div>
+
+                            {/* IMAGE */}
+
+                            <img
+                                src="/cover.png"
+                                alt="Pranav Birla"
+                                className="relative z-10 w-[18rem] sm:w-[24rem] md:w-[34rem] object-contain"
+                            />
 
                         </div>
 
