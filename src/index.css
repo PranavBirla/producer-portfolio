@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Eyekons";
+    src: url("/src/assets/fonts/Eyekons.otf");
+}
+
+@font-face {
+    font-family: "Gallids";
+    src: url("/src/assets/fonts/Gallids.ttf");
+}
+
+@font-face {
+    font-family: "MONOWIRE";
+    src: url("/src/assets/fonts/MONOWIRE.otf");
+}
